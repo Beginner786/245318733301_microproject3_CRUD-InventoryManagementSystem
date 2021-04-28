@@ -1,0 +1,16 @@
+pid,pcategory,pname,pdescription,prating,pprice,pdiscount
+101,Action-Adventure,GTA V - (Grand Theft Auto 5),GTA 5,5,3000,0
+102,Simulation,ATS - (American Truck Simulator),ATS 4,4,2500,0
+103,Simulation,ETS 2 - (Euro Truck Simulator 2),ETS,4,2500,0
+104,"Online-Multiplayer, Survival",Among Us,Among US,5,750,0
+105,"Online-Multiplayer, Survival",Fall Guys,Fall GUYS,5,1500,0
+106,Simulation,Train Sim World 2,Train WORLD 2,4,2000,0
+107,Simulation,X Plane 11,X Plane 11,4,2500,0
+108,"Sandbox, Survival",Minecraft,Minecraft is a Sandbox Battle video game with both single and multiplayer.,4,2000,0
+109,"Online-Multiplayer, Battle",Fortnite,Fortnite is a multiplayer battle video game.,4,1000,0
+110,Action-Adventure,Red Dead Redemption 2,Red Dead Redemption 2 is a Action Adventure video game.,4,1500,0
+111,Action-Adventure,GTA IV - (Grand Theft Auto 4),GTA IV is a Action Adventure video game.,4,2500,0
+112,Action-Adventure,GTA San Andreas,GTA San Andreas is a Action Adventure video game.,4,2500,0
+113,Action-Adventure,Cyberpunk 2077,Cyberpunk 2077 is a Action Adventure video game.,3,2700,0
+114,"Online-Multiplayer, Battle",Apex Legends,Apex Legends is a battle video game.,4,1500,0
+115,Simulation,Bus Simulator 18,Bus Simulator 18 is a bus driving video game.,5,1500,0
