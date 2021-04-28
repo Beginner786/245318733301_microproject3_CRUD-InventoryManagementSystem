@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>GameShop</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<center><h1 class="c1">GameShop</h1></center>
+	<ul class="menu2">
+	<li><a href="/addproduct">Add a product</a></li>
+	<li><a href="/updatestock">Update stock</a></li>
+	<li><a href="/deleteproduct">Delete product</a></li>
+	<li><a href="/salesdetails">Sales details</a></li>
+	<li><a href="/updatesales">Update sales</a></li>
+	</ul>
+	<h2>Hello there! Good to see you!</h2>
+	<h2>These are the video games available with us, check it out!</h2>
+	<center>
+		<table>
+			<tr>
+				<th>Product ID</th>
+				<th>Category</th>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Rating</th>
+				<th>Price</th>
+				<th>Discount</th>
+				<th>Available in Stock</th>
+			</tr>
+			<% for(var i=0;i<data.length;i++) { %>
+			<tr>
+				<td><%= data[i].pid %></td>
+				<td><%= data[i].pcategory %></td>
+				<td><%= data[i].pname %></td>
+				<td><%= data[i].pdescription %></td>
+				<td><%= data[i].prating %></td>
+				<td><%= data[i].spprice %></td>
+				<td><%= data[i].pdiscount %></td>
+				<td><%= data[i].stock %></td>
+			</tr>
+			<% } %>
+		</table>
+	</center>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>GameShop</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<center><h1 class="c1">GameShop</h1></center>
+	<ul class="menu2">
+	<li><a href="/addproduct">Add a product</a></li>
+	<li><a href="/updatestock">Update stock</a></li>
+	<li><a href="/deleteproduct">Delete product</a></li>
+	<li><a href="/">Home</a></li>
+	<li><a href="/updatesales">Update sales</a></li>
+	</ul>
+	<h2>Sales</h2>
+	<center>
+		<table>
+			<tr>
+				<th>Sale ID</th>
+				<th>Product ID</th>
+				<th>Purchase Date</th>
+				<th>Price per piece</th>
+				<th>Quantity</th>
+				<th>Discount</th>
+				<th>Total</th>
+			</tr>
+			<% for(var i=0;i<data2.length;i++) { %>
+			<tr>
+				<td><%= data2[i].Saleid %></td>
+				<td><%= data2[i].Productid %></td>
+				<td><%= data2[i].PurchaseTT %></td>
+				<td><%= data2[i].priceperpiece %></td>
+				<td><%= data2[i].Quantity %></td>
+				<td><%= data2[i].Discount %></td>
+				<td><%= data2[i].Total %></td>
+			</tr>
+			<% } %>
+		</table>
+	</center>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>GameShop</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<center><h1 class="c1">GameShop</h1></center>
+	<ul class="menu2">
+	<li><a href="/addproduct">Add a product</a></li>
+	<li><a href="/updatestock">Update stock</a></li>
+	<li><a href="/">Home</a></li>
+	<li><a href="/salesdetails">Sales details</a></li>
+	<li><a href="/updatesales">Update sales</a></li>
+	</ul>
+	<h4 class="c1">Delete a new product</h4>
+	<form action="/delete" method="POST">
+		<label>Product ID:</label>
+		<input type="text" placeholder="Enter product ID (ex: 101)" name="pid" required><br>
+		<button id="delete">Delete</button>
+	</form>
+	<a href="/" class="c2">Home page</a>
+</body>
+</html>

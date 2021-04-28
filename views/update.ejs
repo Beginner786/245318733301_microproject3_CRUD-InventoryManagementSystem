@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>GameShop</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<center><h1 class="c1">GameShop</h1></center>
+	<ul class="menu2">
+	<li><a href="/addproduct">Add a product</a></li>
+	<li><a href="/">Home</a></li>
+	<li><a href="/deleteproduct">Delete product</a></li>
+	<li><a href="/salesdetails">Sales details</a></li>
+	<li><a href="/updatesales">Update sales</a></li>
+	</ul>
+	<h4>Update the stock</h4>
+	<form action="/update" method="POST">
+		<label>Product ID:</label>
+		<input type="text" placeholder="Enter product ID (ex: 101)" name="pid" required><br>
+		<label>New stock(Adds the given stock to the stock amount already present):</label>
+		<input type="text" placeholder="Enter stock to be added" name="stock" required><br>
+		<button id="update">Update</button>
+	</form>
+	<a href="/" class="c2">Home page</a>
+</body>
+</html>
